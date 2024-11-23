@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+main{
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    background-color: #161616;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+nav h1{
+    font-size: 35px;
+    margin-left: 5vw;
+    text-transform: uppercase;
+}
+.container{
+    width: 100%;
+    height: 75%;
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    padding: 6vw;
+}
+#left{
+    width: 40%;
+    height: 100%;
+    background-color: blue;
+    margin: 0px 6vw 0px 0px;
+
+}
+#left img{
+    width: 100%;
+    height: 100%;
+}
+#right{
+    width: 60%;
+    height: 100%;
+}
+#right h1{
+    font-size: 5vw;
+    font-weight: 500;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgb(50, 49, 49);
+}
+#right .all-song{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5vw;
+    border-bottom: 2px solid rgb(50, 49, 49);
+}
+#right .song-container{
+    height: 44vh;
+    overflow-y: auto;
+}
+
+#right .song-container::-webkit-scrollbar-thumb{
+    background-color: #161616;
+    border-radius: 100px;
+    padding: 5px 5px;
+    background: rgb(55,55,55);
+    background: linear-gradient(90deg, rgba(55,55,55,1) 0%, rgba(51,51,51,1) 50%, rgba(55,55,55,1) 100%);
+}
+#right .song-container::-webkit-scrollbar{
+    background: rgb(55,55,55);
+    background: linear-gradient(90deg, rgba(55,55,55,1) 0%, rgba(128,128,128,1) 50%, rgba(55,55,55,1) 100%);
+    
+}
+
+#right .all-song div{
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+}
+#right .all-song div img{
+    width: 50px;
+    height: 50px;
+}
+#right .all-song div h2{
+    padding-left: 25px;
+}
+#right .all-song h4{
+    pointer-events: none;
+}
+.control-panel{
+    width: 100%;
+    height: 93px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #161616;
+}
+.control-panel i{
+    font-size: 35px;
+    background-color: rgb(35, 35, 35);
+    margin: 0px 10px;
+    padding: 10px;
+    border-radius: 50px;
+}
+#right .all-song:hover{
+    background-color:#161616;
+}
+
+@media (max-width:765px) {
+    main{
+        width: 100%;
+        height: 100vh;
+        background-color: red;
+    }
+    nav{
+        background-color: #161616;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+    .container{
+        width: 100%;
+        height: 80%;
+        background-color: rgb(35, 35, 35);
+        display: flex;
+        flex-direction: column;
+        padding: 10vw;
+    }
+    #left{
+        width: 100%;
+        height: 25%;
+        background-color: blue;
+
+    }
+    #left img{
+        width: 100%;
+        height: 100%;
+    }
+    #right{
+        width: 100%;
+        height: 100%;
+    }
+    #right h1{
+        padding-top: 20px;
+        font-size: 6vw;
+        font-weight: 500;
+        padding-bottom: 30px;
+        border-bottom: 2px solid rgb(50, 49, 49);
+    }
+    #right .all-song{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        border-bottom: 2px solid rgb(50, 49, 49);
+    }
+    #right .song-container{
+        height: 44vh;
+        overflow-y: auto;
+    }
+    
+    #right .song-container::-webkit-scrollbar-thumb{
+        background-color: #161616;
+        border-radius: 100px;
+        padding: 5px 5px;
+        background: rgb(55,55,55);
+        background: linear-gradient(90deg, rgba(55,55,55,1) 0%, rgba(51,51,51,1) 50%, rgba(55,55,55,1) 100%);
+    }
+    #right .song-container::-webkit-scrollbar{
+        background: rgb(55,55,55);
+        background: linear-gradient(90deg, rgba(55,55,55,1) 0%, rgba(128,128,128,1) 50%, rgba(55,55,55,1) 100%);
+        
+    }
+    
+    #right .all-song div{
+        pointer-events: none;
+        display: flex;
+        align-items: center;
+    }
+    #right .all-song div img{
+        width: 50px;
+        height: 50px;
+    }
+    #right .all-song div h2{
+        padding-left: 25px;
+        font-size: 3.2vw;
+    }
+    #right .all-song h4{
+        pointer-events: none;
+        font-size: 2vw;
+    }
+}
