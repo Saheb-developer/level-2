@@ -1,10 +1,10 @@
 var song = [
-    { image: "img/64092_4.jpg", url: "song/Aam Jahe Munde_320(PagalWorld.com.sb).mp3", songName: "Aam Jahe Munde", duration: "3:27" },
-    { image: "img/68671_4.jpg", url: "song/O Mahi O Mahi_320(PagalWorld.com.sb).mp3", songName: "O Mahi O Mahi", duration: "3:53" },
-    { image: "img/70390_4.jpg", url: "song/_Tu Hai Kahan_320(PagalWorld.com.sb).mp3", songName: "Tu Hai Kahan", duration: "4:23" },
+    { image: "img/aam.webp", url: "song/Aam Jahe Munde_320(PagalWorld.com.sb).mp3", songName: "Aam Jahe Munde", duration: "3:27" },
+    { image: "img/O-mahi.webp", url: "song/O Mahi O Mahi_320(PagalWorld.com.sb).mp3", songName: "O Mahi O Mahi", duration: "3:53" },
+    { image: "img/tu hai kahan.webp", url: "song/_Tu Hai Kahan_320(PagalWorld.com.sb).mp3", songName: "Tu Hai Kahan", duration: "4:23" },
     { image: "img/Anjaan.webp", url: "song/JANI - Anjaan ft. Nabeel Akbar & Talhah Yunus.mp3", songName: "Anjaan ft. Nabeel Akbar & Talhah Yunus", duration: "5:03" },
-    { image: "/img/SinceTum.webp", url: "song/JANI - Since Tum.mp3", songName: "Jani - Since Tums", duration: "4:23" },
-    { image: "img/71251_4.jpg", url: "song/Dekha Tenu Pehli Pehli Baar Ve_320(PagalWorld.com.sb).mp3", songName: "Dekha Tenu Pehli Pehli Baar Ve", duration: "4:41" },
+    { image: "img/SinceTum.webp", url: "song/JANI - Since Tum.mp3", songName: "Jani - Since Tums", duration: "4:23" },
+    { image: "img/dekhu.webp", url: "song/Dekha Tenu Pehli Pehli Baar Ve_320(PagalWorld.com.sb).mp3", songName: "Dekha Tenu Pehli Pehli Baar Ve", duration: "4:41" },
 ]
 var songContainer = document.querySelector(".song-container");
 var play = document.querySelector("#play");
